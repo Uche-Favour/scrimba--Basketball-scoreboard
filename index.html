@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="app.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main-container">
+    <div>
+        <h2>Home</h2>
+        <div class="score-bg"><p id="home_display">0</p></div>
+        <button onclick="homeAdd1()">+1</button>
+        <button onclick="homeAdd2()">+2</button>
+        <button onclick="homeAdd3()">+3</button>
+    </div>
+
+        <button id="reset">Reset</button>
+
+    <div>
+        <h2>Guest</h2>
+        <div class="score-bg"><p id="guest_display">0</p></div>
+        <button onclick="guestAdd1()">+1</button>
+        <button onclick="guestAdd2()">+2</button>
+        <button onclick="guestAdd3()">+3</button>
+    </div>
+
+    </div>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
